@@ -1,0 +1,31 @@
+{
+  "name": "pimatic-weatherwidget",
+  "description": "Imports and draw weather as a widget",
+  "author": "Emmanuel Candus",
+  "license": "MIT",
+  "main": "WeatherWidget",
+  "files": [
+    "WeatherWidget.coffee",
+    "WeatherWidget-config-schema.coffee",
+    "device-config-schema.coffee",
+	"app"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/360manu/pimatic-weatherwidget",
+  "configSchema": "WeatherWidget-config-schema.coffee",
+  "dependencies": {
+    "openweathermap": "git+https://github.com/sweetpi/node-openweathermap.git#cc5eb0c82f4bd19966178851b3929f92344d1971",
+    "promise-retryer": "0.0.1"
+  },
+  "peerDependencies": {
+    "pimatic": "0.8.* && >=0.8.31"
+  },
+  "engines": {
+    "node": ">0.8.x",
+    "npm": ">1.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/360manu/pimatic-weatherwidget.git"
+  }
+}

@@ -1,0 +1,179 @@
+.clear {
+    clear: both;
+}
+ 
+.weatherwidget {
+    overflow:hidden;
+    background-color:#FFF;
+    position: relative;
+    display: block;
+}
+
+/* Header */
+
+ .weatherwidget .WW_head {  
+    float:left;
+    background-color:#ffffff; 
+    border-radius: 3px 3px 0px 0px;
+}
+
+ .weatherwidget .WW_head_top {
+    width:280px; /* Resize the Location & Search container - min width suggested 280px */
+    float:left;
+}
+
+ .weatherwidget .WW_head_location {
+    float:left;
+    width:230px;
+}
+
+ .weatherwidget .WW_head_location p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:#000;
+    margin-left:7px;
+    margin-top:5px;
+    line-height:20px;
+}
+
+ .weatherwidget .WW_head_location span {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    text-transform:uppercase;
+    color:#000;
+    margin-left:7px;
+}
+ 
+/* Today Forecast */
+
+ .weatherwidget .WW_head_today_forecast_wrapper {
+    width:100%; 
+    float:left;
+    overflow:hidden;
+    margin-top:0px;
+    
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ .weatherwidget .WW_head_today_forecast {
+    width:235px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+ .weatherwidget .WW_head_today_forecast_icon {
+    float:left;
+	margin-top:15px;
+}
+
+ .weatherwidget .WW_head_today_forecast_icon div {
+    font-weight:bold;
+    font-size:60px;
+    color:#000;
+    text-align:center;
+	margin-left:15px;
+}
+ 
+ .weatherwidget .WW_head_today_forecast_digit {
+    float:right;
+	margin-top:15px;
+}
+
+ .weatherwidget .WW_head_today_forecast_digit p {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:60px;
+    color:#000;
+    font-weight:bold;
+    text-align:center;
+}
+
+ .weatherwidget .WW_head_today_wind_direction {
+    float:left;
+    margin-top:20px;
+    margin-left:15px;
+}
+
+ .weatherwidget .WW_head_today_wind_direction p {
+    background-image:url(../img/wind_pos.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    text-indent:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    text-transform:uppercase;
+    color:#000;
+    line-height:30px;
+    width:120px;
+}
+
+ .weatherwidget .WW_head_today_wind_speed {
+    float:right;
+    margin-top:20px;
+    margin-right:15px;
+}
+
+ .weatherwidget .WW_head_today_wind_speed p {
+    background-image:url(../img/wind_speed.png);
+    background-repeat:no-repeat;
+    background-position:left;
+    text-indent:35px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:10px;
+    text-transform:uppercase;
+    color:#000;
+    line-height:30px;
+}
+
+ .weatherwidget .WW_weekly_forecast_wrapper {
+    width:100%;
+    float:left;
+}
+
+.weatherwidget .WW_weekly_forecast_day {
+    position: relative;
+	float: left;
+    width: 24%;
+	padding:.5em;
+}
+
+ .weatherwidget .WW_weekly_forecast_day.border {
+    border-width: 1px;
+	border-right-style: solid;
+}
+
+ .weatherwidget .WW_weekly_forecast_date {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#111111;
+	text-align: center;
+	text-transform:uppercase;
+	padding-top:5px;
+		font-weight:bold;
+}
+
+ .weatherwidget .WW_weekly_forecast_deg {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    color:#111111;
+	text-align: center;
+	font-weight:bold;
+}
+
+ .weatherwidget .WW_weekly_forecast_icon {
+	font-size:32px;
+	text-align: center;
+	margin: 1em auto;
+	font-weight:bold;
+}
+
+.weatherwidget .WW_separate {
+    width:100%;
+    clear:both;
+}
+ 
